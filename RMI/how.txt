@@ -1,0 +1,26 @@
+Step1:
+ compile all java files Client.java ,Server.java,multiply.java
+javac *.java;
+Step 2:
+ generate stubs and skeleton
+ To generate stubs and skeleton ,use the tool called RMI compiler which is invoked from command
+line
+ rmic Server
+Step 3:  // not required
+Install files on the client and server machine.
+Copy Clent.class,Server_Stub.class,multiply.class to a directory on the client machine.
+Server.class,Server_Skel.class , Server_Stub.class,multiply.class to a directory on the server machine.
+Step4:
+ Start the RMI registry on the server machine
+ rmiregistry
+Step5:
+ Start the Server
+ java Server
+Step6:
+ Start the client
+ Java Client localhost 10 10
+OUTPUT
+Server starts
+Number of item: 10
+Unit price : 10
+Total is :100
