@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UDPServer",
+            "request": "launch",
+            "mainClass": "udp.UDPServer",
+            "projectName": "Lab_4127493b"
+        }
+    ]
+}
